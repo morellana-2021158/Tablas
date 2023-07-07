@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <link rel="stylesheet" href="Diseño_2.css">
+
+</head>
+<body>
+    <center>
+        <h1>Tabla de Multiplicar</h1>
+        <label> Ingrese número de la tabla que desea</label>
+        <br><br>
+        <input type="text" id="num1">
+        <br><br>
+        <input type="button" value="Tabla" onclick="Tabla()">
+    </center>
+
+    <script>
+        function Tabla(){
+            var num1 = Number (document.getElementById('num1').value);
+            ventana = window.open("","","");
+            ventana.document.write("<h2> Tabla del " +num1+ "<h2>")
+                for (var i = 1; i <=10; i++){
+                    ventana.document.write(num1 + " x " + i + " = "  + (num1 * i) + "<br>"+'<link rel="stylesheet" href="Diseño_2.css" />'); 
+                }
+        
+        }
+    </script>
+    
+</body>
+</html>

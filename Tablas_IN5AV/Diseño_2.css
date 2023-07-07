@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+
+h1{
+    color: rgb(214, 21, 21);
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 300%;
+    background-color: gray;
+}
+
+h2{
+    font-family: 'Mouse Memoirs', sans-serif;
+    color: #E5BE01;
+    font-size: 45px;
+    text-align: center;
+}
+
+label{
+    color: white;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 200%;
+}
+button{
+    background-color: #E5BE01;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 150%;
+}
+
+input{
+    font-size: 180%;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #E5BE01;
+    font-family: 'Lobster', cursive;
+}
+
+body{
+    background-color: #383232fa;
+    text-align: center;   
+}
